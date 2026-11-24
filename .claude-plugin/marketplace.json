@@ -1,0 +1,12 @@
+{
+  "name": "company-in-a-folder",
+  "owner": { "name": "the company-in-a-folder authors", "url": "https://github.com/Scaler712/company-in-a-folder" },
+  "plugins": [
+    {
+      "name": "company-in-a-folder",
+      "source": "./",
+      "description": "83 jobs for running a whole business with AI, safely: operations, sales, SEO, AI search, cold outbound, paid ads, marketing, visuals, video and agent operations.",
+      "version": "1.0.0"
+    }
+  ]
+}

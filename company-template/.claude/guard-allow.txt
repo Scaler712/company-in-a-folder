@@ -1,0 +1,8 @@
+# Extra tool names the guard treats as read only.
+# One pattern per line. A line may use * as a wildcard, for example:
+#   mcp__notes__*
+#   mcp__calendar__get_*
+# Lines starting with # are comments and are ignored.
+# Only add tools that read. A tool that sends, posts, pays or changes
+# anything outside this folder still needs an approved card, and the
+# never list is never waived by this file.

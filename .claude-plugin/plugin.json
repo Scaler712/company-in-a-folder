@@ -1,0 +1,27 @@
+{
+  "name": "company-in-a-folder",
+  "version": "1.0.0",
+  "description": "An AI operating system for a whole business: 83 jobs across operations, sales, SEO, AI search, cold outbound, paid ads, marketing, visuals, video and agent operations. They read one company folder and stop at an approval card before anything leaves it. MIT licensed.",
+  "author": {
+    "name": "the company-in-a-folder authors",
+    "url": "https://github.com/Scaler712/company-in-a-folder"
+  },
+  "homepage": "https://github.com/Scaler712/company-in-a-folder",
+  "license": "MIT",
+  "keywords": [
+    "ai-os",
+    "company-os",
+    "business",
+    "operations",
+    "seo",
+    "aeo",
+    "geo",
+    "cold-outbound",
+    "paid-ads",
+    "marketing",
+    "video",
+    "sales",
+    "approval",
+    "skills"
+  ]
+}

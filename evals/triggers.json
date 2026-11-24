@@ -1,0 +1,489 @@
+{
+  "about": "Phrases each skill says it should fire on, taken from its description. Use them to test that your agent picks the right skill.",
+  "skills": {
+    "start": [
+      "set up my company folder",
+      "start the ai os",
+      "get me going in an hour"
+    ],
+    "install-the-ai-os": [
+      "set up my ai os",
+      "fill in my company folder",
+      "what do i do first"
+    ],
+    "teach-a-job": [
+      "teach you a job",
+      "i do this every week",
+      "can you learn this"
+    ],
+    "bot-team": [
+      "set up bots",
+      "split the work",
+      "schedule a bot"
+    ],
+    "morning-brief": [
+      "morning brief",
+      "what do i need to know today",
+      "start my day",
+      "catch me up"
+    ],
+    "clear-my-inbox": [
+      "clear my inbox",
+      "do my email",
+      "triage email",
+      "what needs answering"
+    ],
+    "after-a-meeting": [
+      "write up the meeting",
+      "what did we agree",
+      "send the recap"
+    ],
+    "follow-up": [
+      "follow up",
+      "chase",
+      "what went quiet",
+      "who hasn't replied"
+    ],
+    "weekly-plan": [
+      "weekly plan",
+      "weekly review",
+      "plan my week"
+    ],
+    "process-a-lead": [
+      "answer",
+      "qualify",
+      "reply to"
+    ],
+    "prepare-a-call": [
+      "prep",
+      "research before the call",
+      "write up the call"
+    ],
+    "write-a-proposal": [
+      "write a proposal",
+      "send them a quote"
+    ],
+    "scope-of-work": [
+      "scope of work",
+      "statement of work",
+      "sow",
+      "what exactly are we building"
+    ],
+    "onboard-a-client": [
+      "they said yes",
+      "new client",
+      "onboard them",
+      "set up the kickoff"
+    ],
+    "win-back": [
+      "win back old clients",
+      "reach out to past clients",
+      "follow up on deals we lost",
+      "revive old quotes"
+    ],
+    "find-buyer-words": [
+      "how do our clients describe this?",
+      "find the words buyers use"
+    ],
+    "map-a-funnel": [
+      "map their funnel",
+      "reverse engineer"
+    ],
+    "build-an-offer": [
+      "build an offer",
+      "fix our offer",
+      "rework the package",
+      "what should we sell",
+      "our leads are bad",
+      "price this service"
+    ],
+    "landing-page": [
+      "write a landing page",
+      "write the page for this offer",
+      "the ad needs a page to send people to",
+      "fix our sales page copy"
+    ],
+    "page-cro-audit": [
+      "why is nobody filling in the form",
+      "audit our landing page",
+      "review this page for conversions",
+      "traffic is fine but nothing comes in"
+    ],
+    "proof-first-site": [
+      "plan our website",
+      "we need a new site",
+      "what pages should we have",
+      "our site says nothing"
+    ],
+    "reposition-a-site": [
+      "update the site for the new offer",
+      "we changed who we sell to",
+      "the site still says the old thing"
+    ],
+    "case-study": [
+      "case study",
+      "customer story",
+      "write up that job"
+    ],
+    "seo-audit": [
+      "seo audit",
+      "technical seo check",
+      "why is my site not showing in google",
+      "check my site before we write content"
+    ],
+    "keyword-map": [
+      "keyword map",
+      "what should each page target",
+      "what should we rank for",
+      "keyword research",
+      "not measured"
+    ],
+    "content-brief": [
+      "content brief",
+      "what should this page say",
+      "brief me a page",
+      "plan an article"
+    ],
+    "internal-links": [
+      "internal links",
+      "orphan pages",
+      "which pages should link to each other",
+      "link my pages up"
+    ],
+    "refresh-a-page": [
+      "refresh this page",
+      "this page used to rank",
+      "update our old blog post",
+      "why has this page dropped",
+      "should we merge these two pages"
+    ],
+    "programmatic-pages": [
+      "pages for every town",
+      "a page per integration",
+      "programmatic seo",
+      "location pages",
+      "scale our pages"
+    ],
+    "schema-markup": [
+      "add schema",
+      "add structured data",
+      "add json-ld",
+      "why are we not getting rich results",
+      "mark up this page"
+    ],
+    "comparison-pages": [
+      "vs page",
+      "comparison page",
+      "alternatives to x",
+      "competitor comparison",
+      "why choose us over them"
+    ],
+    "ai-search-audit": [
+      "ai seo audit",
+      "are we showing up in chatgpt",
+      "can ai read my site",
+      "why does ai name our competitor"
+    ],
+    "answer-page": [
+      "write a page ai can quote",
+      "make this page show up in chatgpt, perplexity, claude, gemini or ai overviews",
+      "rewrite our service page",
+      "answer this question on the site"
+    ],
+    "llms-txt": [
+      "ai crawler file",
+      "should we block gptbot",
+      "let chatgpt, perplexity, claude or gemini read our site"
+    ],
+    "ai-visibility-log": [
+      "check our ai visibility",
+      "run the weekly ai search check",
+      "are we named in chatgpt, perplexity, claude, gemini or ai overviews yet",
+      "did last month's pages help"
+    ],
+    "brand-mentions": [
+      "why does ai cite our competitor",
+      "where should we be listed"
+    ],
+    "build-a-prospect-list": [
+      "build a prospect list",
+      "find me companies to contact",
+      "who should i reach out to",
+      "add 20 prospects"
+    ],
+    "research-a-prospect": [
+      "research this prospect",
+      "find an angle for",
+      "personalise this one",
+      "what can i open with"
+    ],
+    "cold-email-sequence": [
+      "write a cold email",
+      "write the outreach sequence",
+      "draft the follow-ups"
+    ],
+    "linkedin-outreach": [
+      "write a linkedin message",
+      "draft a connection request",
+      "who should i message today"
+    ],
+    "outbound-deliverability": [
+      "check my email setup",
+      "am i ready to send cold email",
+      "check spf and dkim",
+      "check dmarc",
+      "why do my emails go to spam"
+    ],
+    "handle-replies": [
+      "sort my replies",
+      "someone replied to the cold email",
+      "who said no",
+      "handle the outbound replies",
+      "add them to do not contact"
+    ],
+    "outbound-weekly-review": [
+      "outbound review",
+      "how did the cold email do",
+      "weekly outbound numbers",
+      "which message worked"
+    ],
+    "ads-account-audit": [
+      "audit my ad account",
+      "review the ads",
+      "what is wasting money",
+      "where should the budget go"
+    ],
+    "diagnose-a-drop": [
+      "why did leads drop",
+      "cost per lead doubled",
+      "the ads stopped working"
+    ],
+    "kill-or-scale": [
+      "kill or scale",
+      "clean up the ads",
+      "what should i pause",
+      "scale the winner"
+    ],
+    "weekly-ads-report": [
+      "the weekly ads report",
+      "a client update on the ads",
+      "how did last week go",
+      "month end ads summary"
+    ],
+    "tracking-audit": [
+      "is my tracking working",
+      "do the leads match",
+      "check the pixel"
+    ],
+    "launch-a-campaign": [
+      "launch a campaign",
+      "set up meta ads",
+      "start running ads",
+      "build a lead campaign"
+    ],
+    "ad-creative-plan": [
+      "what should we test next",
+      "plan new creatives",
+      "our ads are tired",
+      "what creative is working",
+      "give me a creative brief"
+    ],
+    "static-ad-brief": [
+      "an ad brief",
+      "a static ad",
+      "an image ad",
+      "write me an ad for facebook",
+      "an image prompt for an ad"
+    ],
+    "competitor-ads": [
+      "what are competitors running",
+      "check the ad library",
+      "competitor research",
+      "what ads is <company> running",
+      "find a gap in the market"
+    ],
+    "google-search-campaign": [
+      "set up google ads",
+      "run search ads",
+      "bid on keywords",
+      "review our search terms"
+    ],
+    "lead-magnet": [
+      "lead magnet",
+      "free download",
+      "free guide",
+      "checklist",
+      "something to grow the email list"
+    ],
+    "email-sequence": [
+      "email sequence",
+      "welcome emails",
+      "nurture emails",
+      "onboarding emails",
+      "win back old leads"
+    ],
+    "newsletter-issue": [
+      "write the newsletter",
+      "write this week's issue",
+      "email my list"
+    ],
+    "social-posts": [
+      "write some posts",
+      "post about this",
+      "turn this job into social"
+    ],
+    "launch-plan": [
+      "plan a launch",
+      "we are launching next month",
+      "how do we announce the new service",
+      "a launch calendar"
+    ],
+    "tracking-plan": [
+      "what should we track",
+      "set up tracking",
+      "our numbers do not match"
+    ],
+    "ab-test-plan": [
+      "a/b test this",
+      "test two versions",
+      "which headline is better"
+    ],
+    "image-prompt": [
+      "an image prompt",
+      "a prompt for the image model",
+      "why does the image keep coming out wrong"
+    ],
+    "carousel-post": [
+      "a carousel",
+      "a multi slide post",
+      "slides for instagram or linkedin"
+    ],
+    "diagram-visual": [
+      "a diagram",
+      "a flow chart",
+      "show how this works",
+      "a system map"
+    ],
+    "reference-led-visuals": [
+      "make it look like this",
+      "here are some references",
+      "match this style"
+    ],
+    "blog-article-design": [
+      "design the article page",
+      "lay out this post",
+      "add figures to the article",
+      "make the blog readable on mobile"
+    ],
+    "explainer-reel": [
+      "an explainer reel",
+      "a short vertical video",
+      "a 45 second video about x",
+      "a reel",
+      "turn this idea into a video"
+    ],
+    "talking-head-ad": [
+      "ad variations",
+      "hook tests",
+      "cut the ad batch",
+      "versions of the founder video",
+      "make 10 ads from this footage"
+    ],
+    "ugc-ad": [
+      "a ugc ad",
+      "a customer testimonial video",
+      "a talking to camera ad",
+      "a creator ad",
+      "an ad that looks like a real review"
+    ],
+    "launch-film": [
+      "a launch film",
+      "a launch video",
+      "a product video",
+      "a video for the new feature"
+    ],
+    "pitch-video": [
+      "a pitch video",
+      "an investor video",
+      "a video for the deck",
+      "a company intro video",
+      "a 60 second pitch for a buyer"
+    ],
+    "process-animation": [
+      "animate this diagram",
+      "make our process graphic move",
+      "animate the steps lighting up",
+      "bring this illustration to life"
+    ],
+    "motion-overlays": [
+      "add graphics to the video",
+      "lower thirds",
+      "put the numbers on screen",
+      "animate the callouts",
+      "overlay the stats"
+    ],
+    "video-text-layer": [
+      "fix the captions",
+      "the text is unreadable",
+      "text is covering the product",
+      "add subtitles",
+      "redo the on-screen text"
+    ],
+    "multi-clip-film": [
+      "stitch the clips",
+      "assemble the film",
+      "join these scenes",
+      "make one video from these parts"
+    ],
+    "ai-video-generation": [
+      "generate a video clip",
+      "make an ai video",
+      "use a video model for this shot",
+      "render these clips"
+    ],
+    "write-an-sop": [
+      "write this down",
+      "document how we do this",
+      "write an sop",
+      "nobody else knows how to do this"
+    ],
+    "hire-a-role": [
+      "i need to hire",
+      "write a job ad",
+      "help me interview",
+      "which candidate should i pick"
+    ],
+    "client-report": [
+      "monthly report",
+      "client update",
+      "send them a report",
+      "what did we do for them"
+    ],
+    "monthly-numbers": [
+      "do the monthly numbers",
+      "how did last month go"
+    ],
+    "run-agents-for-a-business": [
+      "run my business with agents",
+      "set this up so the bots work daily",
+      "what should the agents do every day"
+    ],
+    "plan-an-automation": [
+      "automate this",
+      "run it every morning",
+      "set up a cron",
+      "make it happen while i sleep"
+    ],
+    "split-work-across-agents": [
+      "split this up",
+      "run it in parallel",
+      "use subagents",
+      "this is too big for one session"
+    ],
+    "pick-a-model": [
+      "which model should i use",
+      "is the cheap one good enough",
+      "why is this costing so much"
+    ]
+  }
+}

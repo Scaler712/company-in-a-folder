@@ -1,0 +1,15 @@
+{
+  "Start here": ["start", "install-the-ai-os", "teach-a-job", "bot-team"],
+  "Run your day": ["morning-brief", "clear-my-inbox", "after-a-meeting", "follow-up", "weekly-plan"],
+  "Win work": ["process-a-lead", "prepare-a-call", "write-a-proposal", "scope-of-work", "onboard-a-client", "win-back", "find-buyer-words", "map-a-funnel"],
+  "Offer and website": ["build-an-offer", "landing-page", "page-cro-audit", "proof-first-site", "reposition-a-site", "case-study"],
+  "Search (SEO)": ["seo-audit", "keyword-map", "content-brief", "internal-links", "refresh-a-page", "programmatic-pages", "schema-markup", "comparison-pages"],
+  "AI search (AEO, GEO)": ["ai-search-audit", "answer-page", "llms-txt", "ai-visibility-log", "brand-mentions"],
+  "Cold outbound": ["build-a-prospect-list", "research-a-prospect", "cold-email-sequence", "linkedin-outreach", "outbound-deliverability", "handle-replies", "outbound-weekly-review"],
+  "Paid ads": ["ads-account-audit", "diagnose-a-drop", "kill-or-scale", "weekly-ads-report", "tracking-audit", "launch-a-campaign", "ad-creative-plan", "static-ad-brief", "competitor-ads", "google-search-campaign"],
+  "Email, social and launches": ["lead-magnet", "email-sequence", "newsletter-issue", "social-posts", "launch-plan", "tracking-plan", "ab-test-plan"],
+  "Visuals": ["image-prompt", "carousel-post", "diagram-visual", "reference-led-visuals", "blog-article-design"],
+  "Video": ["explainer-reel", "talking-head-ad", "ugc-ad", "launch-film", "pitch-video", "process-animation", "motion-overlays", "video-text-layer", "multi-clip-film", "ai-video-generation"],
+  "Operations": ["write-an-sop", "hire-a-role", "client-report", "monthly-numbers"],
+  "Run the agents": ["run-agents-for-a-business", "plan-an-automation", "split-work-across-agents", "pick-a-model"]
+}
