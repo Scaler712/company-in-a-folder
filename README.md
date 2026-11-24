@@ -1,14 +1,59 @@
-# company-in-a-folder
+<div align="center">
 
-**An AI operating system for a whole business. 83 jobs across 13 departments, one company folder they all read, and a guard that stops anything leaving without your typed yes.**
+<h1>company-in-a-folder</h1>
 
-Most skill packs give your AI a method and no memory of your company. Most company-folder templates give it a memory and nothing to do. This is both: the folder holds what is true about your business, and every job reads it before it writes a word.
+<p><b>Your whole company in a folder your AI reads first.</b><br><br>
+83 jobs across 13 departments: operations, sales, search, AI search,<br>
+cold outbound, paid ads, marketing, visuals and video. Nothing leaves without your typed yes.</p>
 
-Plain text files and a few small Python scripts. Works with Claude Code, Codex, Cursor and any agent that reads `AGENTS.md`. MIT licensed. No account, no signup, no paid tool needed.
+<p>
+<a href="#try-it-in-two-minutes"><b>Try it in two minutes</b></a> &nbsp;·&nbsp;
+<a href="SKILLS.md">All 83 jobs</a> &nbsp;·&nbsp;
+<a href="#the-guard">The guard</a>
+</p>
+
+<sub>v1.0.0 · MIT licensed · no account, no signup, no paid tool</sub>
+
+</div>
+
+<br>
+
+<img src="docs/readme/hero.png" alt="Three cards: one plain-text company folder, 83 jobs in 13 departments that read it, and an approval card that only a typed yes C-7 can approve" width="100%">
+
+## What it is
+
+Most skill packs give your AI a method and no memory of your company. Most company-folder templates give it a memory and nothing to do. This is both.
+
+The folder holds what is true about your business, in plain text you wrote: what you sell, your prices, who you turn down, how you sound. Every job reads it before it writes a word. If a fact is not written down, the job says "not found" and asks.
+
+It works with Claude Code, Codex, Cursor and any agent that reads `AGENTS.md`. It is text files and a few small Python scripts.
+
+## Contents
+
+- [What it can do](#what-it-can-do) · [Try it in two minutes](#try-it-in-two-minutes) · [Set up your own](#set-up-your-own-in-one-sitting)
+- **Tour:** [A Monday morning](#a-monday-morning) · [How a job is built](#how-a-job-is-built) · [The guard](#the-guard) · [Growth jobs](#growth-jobs) · [Every job](#every-job)
+- **Reference:** [Tools](#tools) · [What is inside](#what-is-inside) · [Install options](#install-options) · [Common questions](#common-questions) · [Safety](#safety) · [Check the kit](#check-the-kit)
+
+## What it can do
+
+| | |
+| --- | --- |
+| **Run your day** | A one page morning brief, a sorted inbox with safe replies drafted, meeting write-ups, follow-ups on what went quiet. |
+| **Win work** | Sort and score a lead against your own rules, prepare a call, write a proposal priced only from your pricing file. |
+| **Get found in search** | Audit the site, map one term to one page, write briefs, fix internal links, add schema that matches the page. |
+| **Get named by AI assistants** | Log what each assistant says about you, with dates and counts, and plan honest ways to change it. |
+| **Do cold outbound** | Build a sourced prospect list, write the sequence, check your sending setup, sort replies. You send by hand. |
+| **Run paid ads** | Audit an account, explain a drop, decide what to stop and what to scale against what you can afford to pay. |
+| **Market it** | Landing pages, lead magnets, newsletters, social posts, launch plans, honest test plans. |
+| **Make visuals and video** | Carousels, diagrams, explainer reels, talking-head ads, launch films, with checks on the rendered file. |
+| **Run operations** | Written procedures, hiring prep, client reports, a plain read of the month's numbers. |
+| **Run the agents** | Plan an automation before building it, split work across agents, choose models by measuring. |
+| **Ask before anything leaves** | Sending, posting, spending and deleting become a card. Only `yes C-7`, typed by you, approves card 7. |
+| **Grow** | Say "teach a job" and describe it. You get a new job file with its own three tests. |
 
 ## Try it in two minutes
 
-You do not have to fill anything in. The kit ships a complete made-up company, Tidewater Sign & Print, with a real Monday waiting for it: 14 emails, a clashing calendar, a held approval, a fake "we changed our bank details" email, one email that tries to give your AI orders, two weeks of ad results, three weeks of cold outreach, a search export and a log of what AI assistants said about the shop.
+You do not have to fill anything in. The kit ships a complete made-up company, Tidewater Sign & Print, with a Monday waiting for it.
 
 ```bash
 git clone https://github.com/Scaler712/company-in-a-folder.git
@@ -42,66 +87,36 @@ Then say **start**.
 
 The `start` job reads your website first and drafts the answers, so you mostly confirm or fix. It asks 12 questions one at a time, writes only what you said, tests that the folder works, and ends by running your first morning brief. About 45 minutes. Dictating is fine. Your prices and the customers you turn down are always asked, never guessed.
 
-Check how far along you are at any time:
-
 ```bash
 python3 scripts/doctor.py ~/my-company
 ```
 
-It prints a score out of 100, what to fix first, and one next step. It changes nothing.
+That prints a score out of 100, what to fix first, and one next step. It changes nothing.
 
-## What it can do
+## A Monday morning
 
-| Department | Jobs | What they cover |
-|---|---|---|
-| **Start here** | 4 | set up the folder in one sitting, teach it new jobs |
-| **Run your day** | 5 | morning brief, inbox, meetings, follow-up, weekly plan |
-| **Win work** | 8 | leads, call prep, proposals, scopes, onboarding, win-back |
-| **Offer and website** | 6 | build the offer, write the pages, back every claim with proof |
-| **Search (SEO)** | 8 | audits, keyword map, briefs, links, refreshes, schema, comparison pages |
-| **AI search (AEO, GEO)** | 5 | what the AI assistants say about you, and honest ways to change it |
-| **Cold outbound** | 7 | lists, research, sequences, deliverability, replies, weekly review |
-| **Paid ads** | 10 | audits, drops, kill or scale, reports, tracking, launches, creative |
-| **Email, social and launches** | 7 | lead magnets, sequences, newsletters, posts, launch plans, tests |
-| **Visuals** | 5 | image prompts, carousels, diagrams, article design |
-| **Video** | 10 | explainers, talking-head ads, launch films, captions, assembly |
-| **Operations** | 4 | procedures, hiring prep, client reports, the monthly numbers |
-| **Run the agents** | 4 | daily operation, automations, splitting work, choosing models |
+The demo inbox has 14 emails, a request to move a meeting onto a slot that is taken, an approval that has been waiting four days, a fake "we changed our bank details" email, and one email that tries to give your AI orders. One prompt turns it into one page.
 
-Every job with one line on what it does: [`SKILLS.md`](SKILLS.md).
+<p align="center"><img src="docs/readme/demo.png" alt="Left: what is waiting in the demo folder on Monday 2027-03-08. Right: the one page morning brief a correct run gives back, with the bank details email and the planted instruction listed under Looks wrong" width="100%"><br><sub><b>The morning brief.</b> What needs you, what is waiting on your yes, and what looks wrong. Nothing sent, nothing approved.</sub></p>
 
-`marketing-os/` is a separate, complete kit bundled inside this one, with 12 more skill files and its own command line tool, for running the marketing of one offer end to end.
+## How a job is built
 
-## Why these jobs behave
+Every job is one file with the same twelve parts, so you can read any of them in five minutes and know what it will do.
 
-Every job is one file with the same twelve parts, so you can read any of them in five minutes and know what it will do:
+<p align="center"><img src="docs/readme/anatomy.png" alt="The twelve parts of a job file in order, from Use when to 3 tests, and the three kinds of test every job ships with" width="100%"><br><sub><b>One job, one file.</b> What it reads, where it stops, a fixed output, and three tests with a pass line each.</sub></p>
 
-- **It reads your folder first.** Prices come from your pricing file, claims from your proof file, the voice from emails you sent. If the fact is not written down, the job says "not found" and asks. It does not guess.
 - **It checks outside facts at the source.** Search engine rules, AI crawler names, email sender rules, ad policies and consumer law change. Where a job relies on one, it cites the official page and the date it was read, and tells the agent to open it again.
 - **It makes no promises.** No benchmark numbers, no "expect a 30% lift". Where a number matters, a script counts it from your own data and shows the inputs.
-- **It stops at a card.** Anything that would send, post, publish, spend or delete becomes an approval card with the exact text. Only `yes C-7`, typed by you, approves card 7.
 - **It treats text as data.** Emails, web pages and transcripts can carry instructions aimed at your AI. Every job has a test for that.
-- **It ships with three tests.** A turn-down case, a thin-information case and a pressure or injection case, each with a pass line.
-
-## The six rules
-
-1. **One folder every bot reads first.** What is true about your company lives in `core/`.
-2. **One bot, one job.** Each job is one skill file: what to read, the steps in order, where to stop.
-3. **Nothing leaves without your yes.**
-4. **Corrections stick.** Correct it once. The correction is saved in the file the mistake came from.
-5. **Fresh session daily.** The folder is the memory. The chat is not.
-6. **Decisions get checked.** Every proposal is written down with what should happen, and later, what did.
 
 ## The guard
 
-Most kits tell the AI "do not send without approval" and hope. A rule in a text file is not a lock.
+Most kits tell the AI "do not send without approval" and hope. A rule in a text file is not a lock. This kit ships a real one for Claude Code: `company-template/.claude/hooks/guard.py` runs before every tool call.
 
-This kit ships a real one for Claude Code. `company-template/.claude/hooks/guard.py` runs before every tool call:
+<p align="center"><img src="docs/readme/guard.png" alt="How a typed yes C-7 is recorded by one hook and checked by a second before a single action goes through, what is blocked, and what stays blocked even with a yes" width="100%"><br><sub><b>One yes, one action.</b> A yes the AI writes into a file approves nothing.</sub></p>
 
 - Reading, searching and writing inside your folder: allowed.
 - Sending, posting, booking, paying, pushing: blocked, unless there is a card for that tool and you typed `yes C-<n>` for it.
-- Your yes is recorded by a second hook, from the words you typed, into a log the AI is blocked from writing. A "yes" the AI writes into a file approves nothing.
-- One yes, one action. The guard spends the yes when it lets the call through.
 - Deleting outside `output/`, sending to more than 3 people at once, or touching the guard's own files: blocked even with a yes.
 
 Test it yourself, from inside your company folder:
@@ -111,6 +126,18 @@ python3 .claude/hooks/guard.py --self-test
 ```
 
 It is pattern matching, so it can be wrong in both directions, and it only runs in Claude Code. It is not a sandbox. Read `company-template/.claude/hooks/README.md` for the limits. The strongest protection is still simple: do not connect a tool that can send unless you need it to.
+
+## Growth jobs
+
+Four departments have their own folder of state, so the work carries over from week to week: the keyword map, the log of what AI assistants said, the prospect list and do-not-contact list, and the numbers every ads decision is checked against.
+
+<p align="center"><img src="docs/readme/growth.png" alt="Four columns for search, AI search, cold outbound and paid ads. Each shows the files it reads, its jobs, the official sources it is checked against, and its one hard rule" width="100%"><br><sub><b>Search, AI search, outbound and ads.</b> Each reads its own files and cites the official page it relies on.</sub></p>
+
+## Every job
+
+<p align="center"><img src="docs/readme/map.png" alt="All 83 jobs grouped into 13 departments" width="100%"><br><sub><b>83 jobs, 13 departments.</b> One line on each in <a href="SKILLS.md">SKILLS.md</a>.</sub></p>
+
+`marketing-os/` is a separate, complete kit bundled inside this one, with 12 more skill files and its own command line tool, for running the marketing of one offer end to end.
 
 ## Tools
 

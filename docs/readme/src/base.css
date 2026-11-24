@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap");
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --ink:#0b0b0f; --blue:#2450d8; --soft:#8fb4f5; --pale:#eef3fe; --line:#e3e5ea; --mute:#6b7280; --faint:#9aa1ad; }
+body { width: 1800px; background:#fff; font-family: Inter, -apple-system, "Helvetica Neue", sans-serif; color: var(--ink);
+  background-image: radial-gradient(#dfe2e8 1.1px, transparent 1.2px); background-size: 26px 26px; position: relative; overflow: hidden; }
+h1 { font-weight: 800; font-size: 62px; letter-spacing: -2.2px; text-align: center; line-height: 1.08; }
+h1 u { text-decoration: none; background: linear-gradient(var(--blue),var(--blue)) 0 100%/100% 6px no-repeat; padding-bottom: 6px; border-radius: 3px; }
+.sub { text-align:center; font-size: 22px; color:#30343c; margin-top: 16px; font-weight: 500; }
+.card { position:absolute; background:#fff; border:1px solid var(--line); border-radius: 14px; box-shadow: 0 10px 30px rgba(20,30,60,.07), 0 1px 2px rgba(20,30,60,.05); padding: 22px 24px; }
+.card h2 { font-size: 21px; font-weight: 700; letter-spacing:-.4px; }
+.card .cap { font-size: 13.5px; color: var(--mute); margin-top: 5px; line-height: 1.35; }
+.num { display:inline-flex; width:28px; height:28px; border-radius:50%; background:var(--blue); color:#fff; font-size:15px; font-weight:700; align-items:center; justify-content:center; margin-right:10px; vertical-align: 2px; }
+.inner { border:1px solid var(--line); border-radius: 10px; background:#fff; margin-top: 16px; padding: 12px 14px; }
+.mono { font-family: "JetBrains Mono", ui-monospace, Menlo, monospace; }
+.tree div { font-family:"JetBrains Mono", Menlo, monospace; font-size: 13.5px; font-weight:500; line-height: 27px; display:flex; align-items:center; white-space: nowrap; }
+.tree .d { font-weight: 700; }
+.tree .n { color: var(--mute); font-family: Inter, sans-serif; font-size: 12.5px; margin-left: auto; padding-left: 10px; font-weight: 400; }
+.tree .hl { background: var(--pale); border-radius: 6px; margin: 0 -8px; padding: 0 8px; }
+.ico { width:15px; height:12px; border:1.6px solid var(--ink); border-radius:2.5px; margin-right:9px; position:relative; flex:none; }
+.ico:before { content:""; position:absolute; left:-1.6px; top:-4.6px; width:7px; height:3.4px; border:1.6px solid var(--ink); border-bottom:none; border-radius:2px 2px 0 0; }
+.fil { width:11px; height:14px; border:1.6px solid var(--ink); border-radius:2px; margin-right:11px; margin-left:2px; flex:none; }
+.pill { display:inline-block; border-radius: 999px; padding: 3px 11px; font-size: 12.5px; font-weight: 600; background: var(--pale); color: var(--blue); white-space: nowrap; }
+.pill.solid { background: var(--blue); color:#fff; }
+.pill.grey { background:#f1f2f4; color:#4b5260; }
+.pill.out { background:#fff; border:1.5px solid var(--ink); color:var(--ink); }
+.hand { position:absolute; font-family: Caveat, "Bradley Hand", cursive; font-weight:600; color: var(--blue); font-size: 29px; line-height: 1.02; }
+svg.ov { position:absolute; left:0; top:0; pointer-events:none; }
+.foot { position:absolute; left:140px; right:140px; display:flex; justify-content:space-between; font-size: 14px; color: var(--mute); }
+.foot b { color: var(--ink); font-weight: 700; font-size: 16px; }
+.bar { height:7px; border-radius:4px; background:#e9ebef; }
+.bar i { display:block; height:7px; border-radius:4px; background:var(--blue); }
+.dot { width:11px; height:11px; border-radius:50%; background:var(--blue); display:inline-block; }
+.dot.o { background:#fff; border:1.6px solid #c5cad3; }
+.row { display:flex; align-items:center; }

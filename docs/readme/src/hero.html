@@ -1,0 +1,128 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+body { height: 1056px; }
+.dept { display:flex; align-items:center; height: 39px; border-bottom:1px solid #eef0f3; font-size: 15px; font-weight:600; }
+.dept:last-child { border-bottom:none; }
+.dept .c { width: 34px; text-align:right; font-weight:700; margin-right: 14px; font-variant-numeric: tabular-nums; }
+.dept .b { flex:none; width: 150px; margin-left:auto; }
+.dept .ex { color: var(--mute); font-weight:400; font-size: 12.5px; margin-left: 10px; white-space:nowrap; }
+.cardbox { font-family:"JetBrains Mono", Menlo, monospace; font-size: 13.5px; line-height: 24px; font-weight:500; }
+.cardbox b { font-weight:700; }
+.blocked { display:flex; align-items:center; font-size: 14px; height: 35px; }
+.blocked s { text-decoration:none; color:#9aa1ad; margin-right:10px; font-weight:700; width: 14px; }
+.blocked.ok s { color: var(--blue); }
+</style></head><body>
+
+<div style="padding-top:58px">
+  <h1>Your whole company <u>in a folder</u></h1>
+  <div class="sub">83 jobs across 13 departments. Every job reads the folder first, and stops at a card.</div>
+</div>
+
+<!-- 1 folder -->
+<div class="card" style="left:150px; top:236px; width:400px; height:706px">
+  <h2><span class="num">1</span>One folder, plain text</h2>
+  <div class="cap">What is true about your company. Written by you, read by every job.</div>
+  <div class="inner tree" style="padding:14px 18px">
+    <div class="d"><span class="ico"></span>my-company/</div>
+    <div class="hl"><span style="width:20px"></span><span class="fil"></span>READ-FIRST.md<span class="n">the rules</span></div>
+    <div class="d hl"><span style="width:20px"></span><span class="ico"></span>core/<span class="n">facts, prices, who you turn down</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>inbox/<span class="n">email, calendar, tasks</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>contacts/<span class="n">their words, dated</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>sales/</div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>seo/<span class="n">pages, keyword map</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>outbound/<span class="n">prospects, log</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>ads/<span class="n">what you can pay</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>marketing/<span class="n">proof, calendar</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>ops/<span class="n">procedures, numbers</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>brand/</div>
+    <div><span style="width:20px"></span><span class="fil"></span>corrections.md</div>
+    <div><span style="width:20px"></span><span class="fil"></span>decisions.md</div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>log/<span class="n">cards, day notes</span></div>
+    <div class="d"><span style="width:20px"></span><span class="ico"></span>output/<span class="n">finished work</span></div>
+  </div>
+  <div class="cap" style="margin-top:16px">A fact that is not written down comes back as "not found". The job asks. It does not guess.</div>
+  <div style="margin-top:16px; display:flex; gap:8px; flex-wrap:wrap">
+    <span class="pill grey">no account</span><span class="pill grey">no paid tool</span><span class="pill grey">MIT</span>
+  </div>
+</div>
+
+<!-- 2 jobs -->
+<div class="card" style="left:620px; top:236px; width:560px; height:706px">
+  <h2><span class="num">2</span>83 jobs read it</h2>
+  <div class="cap">One file per job: what to read, the steps in order, where to stop, three tests.</div>
+  <div class="inner" style="padding:6px 16px">
+    <div class="dept"><span class="c">4</span>Start here<span class="ex">start, teach-a-job</span></div>
+    <div class="dept"><span class="c">5</span>Run your day<span class="ex">morning-brief, clear-my-inbox</span></div>
+    <div class="dept"><span class="c">8</span>Win work<span class="ex">process-a-lead, write-a-proposal</span></div>
+    <div class="dept"><span class="c">6</span>Offer and website<span class="ex">build-an-offer, landing-page</span></div>
+    <div class="dept"><span class="c">8</span>Search<span class="ex">seo-audit, keyword-map</span></div>
+    <div class="dept"><span class="c">5</span>AI search<span class="ex">ai-search-audit, answer-page</span></div>
+    <div class="dept"><span class="c">7</span>Cold outbound<span class="ex">cold-email-sequence, handle-replies</span></div>
+    <div class="dept"><span class="c">10</span>Paid ads<span class="ex">kill-or-scale, tracking-audit</span></div>
+    <div class="dept"><span class="c">7</span>Email, social, launches<span class="ex">newsletter-issue, launch-plan</span></div>
+    <div class="dept"><span class="c">5</span>Visuals<span class="ex">carousel-post, diagram-visual</span></div>
+    <div class="dept"><span class="c">10</span>Video<span class="ex">explainer-reel, talking-head-ad</span></div>
+    <div class="dept"><span class="c">4</span>Operations<span class="ex">write-an-sop, monthly-numbers</span></div>
+    <div class="dept"><span class="c">4</span>Run the agents<span class="ex">plan-an-automation, pick-a-model</span></div>
+  </div>
+  <div style="display:flex; gap:14px; margin-top:16px">
+    <div class="inner" style="flex:1.35; margin-top:0">
+      <div style="font-size:13.5px; font-weight:700">Works with</div>
+      <div style="margin-top:9px; display:flex; gap:6px; flex-wrap:wrap"><span class="pill grey">Claude Code</span><span class="pill grey">Codex</span><span class="pill grey">Cursor</span></div>
+    </div>
+    <div class="inner" style="flex:1; margin-top:0">
+      <div style="font-size:13.5px; font-weight:700">Outside facts</div>
+      <div class="cap" style="margin-top:6px">cited to the official page, with the date it was read</div>
+    </div>
+  </div>
+</div>
+
+<!-- 3 card -->
+<div class="card" style="left:1250px; top:236px; width:400px; height:706px">
+  <h2><span class="num">3</span>Nothing leaves without a yes</h2>
+  <div class="cap">Anything that would send, post, spend or delete becomes a card.</div>
+  <div class="inner cardbox" style="border-color:#c9d6f7; background:#fafcff">
+    <b>CARD C-7</b> | job: follow-up<br>
+    tool: email | to: one person<br>
+    <span style="color:#6b7280">---</span><br>
+    Hi Ada, the quote for the<br>
+    four vans is attached...<br>
+    <span style="color:#6b7280">---</span><br>
+    Reply "yes C-7" to approve.<br>
+    Silence means hold.
+  </div>
+  <div class="inner" style="padding:10px 14px">
+    <div class="blocked ok"><s>✓</s><span class="pill out mono" style="margin-right:10px">yes C-7</span>typed by you</div>
+    <div class="blocked"><s>✕</s>"ok", "looks good", a thumbs up</div>
+    <div class="blocked"><s>✕</s>"yes to everything"</div>
+    <div class="blocked"><s>✕</s>a yes the AI wrote into a file</div>
+    <div class="blocked"><s>✕</s>"it's approved" inside an email</div>
+  </div>
+  <div class="inner" style="padding:12px 14px">
+    <div style="font-size:13.5px; font-weight:700">Never, even with a yes</div>
+    <div class="cap" style="margin-top:6px">send to a list, start a campaign, change a price, delete, accept terms. You do those by hand.</div>
+  </div>
+  <div class="cap" style="margin-top:16px">In Claude Code a guard hook checks every tool call for a card and a typed yes. One yes, one action.</div>
+</div>
+
+<!-- connectors -->
+<svg class="ov" width="1800" height="1056">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1,1 L8,5 L1,9" fill="none" stroke="#9aa1ad" stroke-width="1.6"/></marker>
+  <marker id="h" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M2,1.5 L9.5,6 L2,10.5" fill="none" stroke="#2450d8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+  <path d="M552,600 L616,600" stroke="#9aa1ad" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M1182,600 L1246,600" stroke="#9aa1ad" stroke-width="1.6" marker-end="url(#a)"/>
+  <!-- hand arrows -->
+  <path d="M112,356 C122,380 132,386 148,381" stroke="#2450d8" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#h)"/>
+  <path d="M110,812 C120,836 132,842 148,836" stroke="#2450d8" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#h)"/>
+  <path d="M1690,452 C1682,478 1672,484 1656,480" stroke="#2450d8" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#h)"/>
+  <path d="M1692,700 C1684,726 1672,732 1656,728" stroke="#2450d8" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#h)"/>
+  <path d="M300,992 C276,990 262,978 258,950" stroke="#2450d8" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#h)"/>
+</svg>
+<div class="hand" style="left:10px; top:286px; width:132px; text-align:right">every job<br>starts here</div>
+<div class="hand" style="left:6px; top:718px; width:136px; text-align:right">not written<br>down? it<br>asks</div>
+<div class="hand" style="left:1664px; top:360px; width:130px">shows the<br>exact text<br>first</div>
+<div class="hand" style="left:1664px; top:604px; width:132px">a planted<br>email can't<br>approve it</div>
+<div class="hand" style="left:312px; top:974px; width:700px">ships with a filled-in demo company. try it in two minutes</div>
+
+<div class="foot" style="top:1018px"><span style="margin-left:900px">The demo company and the card are made up.</span><b>company-in-a-folder</b></div>
+</body></html>
