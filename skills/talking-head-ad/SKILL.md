@@ -63,7 +63,7 @@ Pick the pairs on purpose, one line per ad:
 | Ad | Hook | Body | Call to action | What this version tests |
 |---|---|---|---|---|
 | A01 | H03 | B02 | C01 | baseline |
-| A02 | H05 | B02 | C01 | hook, body and call held still |
+| A02 | H05 | B02 | C01 | the hook, with body and call held still |
 
 Hold everything still except the part being tested, so a hook test keeps one body and one call to action across the whole group, and each group has a baseline plus its variants. Ask the owner how many ads they can actually judge rather than guessing a number; if `ads/numbers.md` holds their own rules on group size or test length, follow those.
 

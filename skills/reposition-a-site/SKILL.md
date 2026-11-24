@@ -72,7 +72,7 @@ Once the change is live, check it yourself, then report `done C-<n>: <what you s
 
 - Open every changed address with the cache off and confirm the new title, because a cached old page can pass a review it should fail.
 - Search the live pages for every retired word, reporting each hit with its address.
-- Submit the form once with test details and confirm the entry arrived, because a success message is not delivery.
+- Ask the owner to submit the form once with test details and confirm with you that the entry arrived, because a success message is not delivery. You never submit it yourself: a submitted form leaves the folder and needs its own card.
 - Open every redirect, then count the proof items against the inventory.
 
 ## Stop conditions

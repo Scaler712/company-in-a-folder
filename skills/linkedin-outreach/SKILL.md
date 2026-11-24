@@ -57,7 +57,7 @@ Four steps, days apart, all by hand:
 
 1. **Read what they published.** The owner reads one recent public post properly. Nothing worth engaging with means skip to step 3.
 2. **Engage in public first.** One comment that adds something: an answer, a different case, a practitioner's question. Not "great post". The AI drafts it, the owner posts it.
-3. **Connection note.** Short, a real reason, no pitch. The note field is small, so keep it under 300 characters and have the owner check the current limit in the app.
+3. **Connection note.** Short, a real reason, no pitch. The note field is small, so keep it under 200 characters, which is the limit on a free account, and have the owner check the current limit in the app.
 4. **Follow-up after they accept.** Give something first, no ask. Days later, one small ask.
 
 ## Craft rules
@@ -115,7 +115,7 @@ After the owner reports back, add one row per message to `outbound/log.md` using
 
 Person: the operations lead at Marrowfield Metalworks. The research file holds a public post of theirs from nine days ago about running one planning board across two sites, with the link and date.
 
-Comment draft: a one line question about how they handle a midweek change. Connection note: "Saw your post on running one board across two sites. We work with fabricators on that handover. Happy to connect." No pitch, 139 characters. Follow-up 1 gives the one line answer the owner uses with clients. Follow-up 2 asks "worth a short call?".
+Comment draft: a one line question about how they handle a midweek change. Connection note: "Saw your post on running one board across two sites. We work with fabricators on that handover. Happy to connect." No pitch, 113 characters. Follow-up 1 gives the one line answer the owner uses with clients. Follow-up 2 asks "worth a short call?".
 
 The list has 8 people, under the cap of 10. Two days later the owner says they sent 3 notes: three rows go into `outbound/log.md`, and three CSV rows get `status` and `last_touch`.
 

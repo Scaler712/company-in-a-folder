@@ -56,7 +56,7 @@ Copy this into your answer and tick it off:
 | Link tags | `get_ads` link addresses | tags missing or different per ad, so nothing can be traced |
 | Counts match | platform count against the owner's own, same dates | a gap either way |
 
-On duplicates: Meta's Conversions API guidance says a browser event and a server event for the same action are matched when they carry the identical event name and either the same event id, or the same external id and browser id pair, so an event sent both ways without those fields can be double counted (developers.facebook.com/documentation/ads-commerce/conversions-api/best-practices, read 2026-11-23).
+On duplicates: Meta's Conversions API guidance says a browser event and a server event for the same action are matched when they carry the identical event name and either the same event id, or the same external id and browser id pair, so an event sent both ways without those fields can be double counted (developers.facebook.com/docs/marketing-api/conversions-api/best-practices, read 2026-11-23).
 
 To test whether a thank-you page or form fires: ask the owner to submit the form and note the exact time, then read the pixel again and see whether anything arrived in that minute. A `send_pixel_event` card is written only if the owner wants a server side check, with a test event code so it stays out of reporting, and the card says so.
 

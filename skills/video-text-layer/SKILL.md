@@ -110,7 +110,7 @@ Card: <C-n if posting, else "none, nothing posted">
 
 Harwick Window Systems has a 90 second explainer whose cards cover the installer's hands, and a last card holding 180 characters over a 4 second shot.
 
-The map is built from frames taken after the tool icons pop in, which moves two cards that looked safe on an earlier frame. The long card becomes three at 14 characters per second. White captions over a bright window fail the contrast test, so they get a dark plate. The sweep finds one card still open after its words end, caused by a fixed end time, and the render comes back quieter than the source, so the original audio is restored and measured.
+The map is built from frames taken after the tool icons pop in, which moves two cards that looked safe on an earlier frame. The long card's copy is cut and split into three cards, each at 14 characters per second. White captions over a bright window fail the contrast test, so they get a dark plate. The sweep finds one card still open after its words end, caused by a fixed end time, and the render comes back quieter than the source, so the original audio is restored and measured.
 
 ## 3 tests
 

@@ -28,7 +28,7 @@ With no order given: build the shot list from what the files contain, show it, a
 - Do not retime a clip that was made to a timing the owner already approved.
 - One loudness target for the whole film, measured on the finished file, not predicted from the first pass.
 - Claims spoken or shown trace to `marketing/proof.md` or `core/`.
-- Long encodes run as background jobs, because a job killed by a timeout mid-write leaves a file that looks present and will not play. Delete rejected renders as you go: master formats are large and a full disk fails a render halfway with a confusing error.
+- Long encodes run as background jobs, because a job killed by a timeout mid-write leaves a file that looks present and will not play. Delete rejected renders inside `output/` as you go, and never a file outside it: master formats are large and a full disk fails a render halfway with a confusing error.
 - Delivering in public is a card. Building is free.
 
 ## Checklist

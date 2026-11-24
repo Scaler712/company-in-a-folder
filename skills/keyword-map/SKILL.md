@@ -20,7 +20,7 @@ The market or page set to map. Sources of demand, most trusted first:
 
 | Rank | Source | How to get it |
 |---|---|---|
-| 1 | The owner's Search Console queries | pasted export, or `get_search_queries` with a connector. To see which connector tools read and which change, ask the agent to list them |
+| 1 | The owner's Search Console queries | pasted export, or `get_search_queries` with a connector. See `tools/autoady.md` for which connector tools only read and which change things |
 | 2 | The exact words buyers used | newest `find-buyer-words` output, and `contacts/` |
 | 3 | Live autocomplete and people-also-ask | type the seed into a search engine now, record what came back, with the date |
 | 4 | Competitor page titles | fetch the page, quote its title element |

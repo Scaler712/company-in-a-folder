@@ -117,7 +117,7 @@ Write "none" under any heading with nothing in it. Never delete a heading.
 
 Fernbrook Dental, a four chair clinic. `core/priorities.md` item 1 is "fill the two empty Thursday afternoon slots every week".
 
-Brief for 2027-03-08 reads email.md and calendar.md from `inbox/`, and cannot read tasks.md because the file is empty.
+Brief for 2027-03-08 reads all three files in `inbox/`. tasks.md is empty, so the first line reports it as empty and "Could not read" says "none".
 
 "Needs you today" has three lines. Top one: a patient asking to move a Thursday appointment, which matters to priority 1, from email.md. The calendar shows two meetings, one with a supplier, prep line "last quote was for 12 units, source contacts/ file".
 

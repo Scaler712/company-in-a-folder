@@ -83,7 +83,7 @@ From the FTC's CAN-SPAM Act compliance guide for business (https://www.ftc.gov/b
 - Opt-outs honoured within 10 business days, the mechanism working for at least 30 days after sending, and no fee or extra personal details required to opt out.
 - Responsibility that stays with the company even when another firm sends for it.
 
-So every email carries a footer with who is sending, the postal address and a one click unsubscribe. Write in the output: "This is the United States position, read 2026-11-23. Other countries have their own rules, including consent before sending. Confirm the rules where your readers live."
+So every email carries a footer with who is sending, the postal address and a clear, plain explanation of how to opt out. Write in the output: "This is the United States position, read 2026-11-23. Other countries have their own rules, including consent before sending. Confirm the rules where your readers live."
 
 ## Stop conditions
 

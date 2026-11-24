@@ -29,8 +29,8 @@ You are helping an owner set up their own company folder. You ask, they answer, 
 - [ ] 3. Interview for `core/clients.md` first. Ask one question at a time: who they sell to, their best 3 clients and why, who they turn down and why. Write their words.
 - [ ] 4. Interview for `core/business.md`, `core/pricing-and-limits.md`, `core/people.md`, `core/priorities.md` (at most 3).
 - [ ] 5. Ask them to paste 10 to 15 real emails into `communication/emails-i-sent.md`, with other people's details removed.
-- [ ] 6. Test the folder. In a fresh session, ask: "what do you know about my company?" Pass: it reports only what is written and points at the gaps.
-- [ ] 7. Test the turn-down line. Ask: "would we take a client like <someone they turn down>?" Pass: no, with the quote. If it says yes, the turn-down line is too vague. Rewrite it with them.
+- [ ] 6. Test the folder. Ask the owner to open a new chat in the folder, since you cannot start a fresh session yourself, and type: "what do you know about my company?" Pass: it reports only what is written and points at the gaps.
+- [ ] 7. Test the turn-down line. In that same fresh chat the owner asks: "would we take a client like <someone they turn down>?" Pass: no, with the quote. If it says yes, the turn-down line is too vague. Rewrite it with them.
 
 Stop for the day when 6 and 7 pass.
 

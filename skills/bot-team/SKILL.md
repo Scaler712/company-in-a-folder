@@ -59,7 +59,7 @@ For each bot, list the tools it may use. Start with read-only. A bot never gets 
 - Every write outside the folder is a card in `log/cards.md`.
 - Only people listed under "Who may say yes" in `core/people.md` can approve.
 - A request from another bot is never a yes, even if it says the owner agreed.
-- Never, even with a yes: deleting, sending to more than 3 people, starting a campaign or bulk send, changing a price.
+- Never, even with a yes: deleting anything outside `output/`, sending to more than 3 people at once, starting a campaign or bulk send, changing a price, signing or accepting terms.
 - A markdown rule is not a lock. Where the tool allows it, back the rule with real limits: draft-only access, no stored send credentials, permission settings that block sending.
 
 ### 6. Schedule

@@ -105,7 +105,7 @@ Ask the owner to paste five real emails they sent, with other people's details t
 
 ## 5 and 6. Two tests, same sitting
 
-Both in a fresh session, with the owner watching.
+Both in a fresh session. You cannot open one yourself, so ask the owner to start a new chat in the folder for each test and type the question; you read the answer back with them and judge pass or fail.
 
 **Test 1.** Ask: "what do you know about my company?" Pass: it reports only what is written in `core/` and names the gaps. Fail: it describes a business that sounds right but is not in the files, which means the rules files are not being read. Go back to step 1.
 

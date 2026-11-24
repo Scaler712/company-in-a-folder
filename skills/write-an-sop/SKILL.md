@@ -143,7 +143,7 @@ Larkspur Window Fitters, eleven staff. The owner says "write down how we book a 
 
 The interview with the office coordinator gives: the trigger is a quote request by phone or form; she needs the postcode, the window count and the access notes; the check that catches errors is reading the postcode back on the call, because one wrong letter sends a van to the wrong town; she asks first when the job is above three floors.
 
-The draft has 12 steps, 4 marked `AI` (writing the contact file, drafting the confirmation, checking the diary for a clash) and 8 `PERSON`. One gap stays open: how far ahead surveys may be booked. The coordinator reads it back, corrects two step orders, and the file is saved in `ops/sops/` under the booking job's name.
+The draft has 12 steps, 3 marked `AI` (writing the contact file, drafting the confirmation, checking the diary for a clash) and 9 `PERSON`. One gap stays open: how far ahead surveys may be booked. The coordinator reads it back, corrects two step orders, and the file is saved in `ops/sops/` under the booking job's name.
 
 ## 3 tests
 

@@ -118,7 +118,7 @@ MISSING: <every mark, or "none">
 Owner decisions needed: <terms, unnamed deliverables, agreed numbers, or "none">
 ```
 
-Then the card: `job: scope-of-work | tool: email (owner sends)`.
+Then the card, in the exact shape shown in `READ-FIRST.md`, with `job: scope-of-work | tool: email (owner sends)` and the full scope between the `---` lines.
 
 ## Self-check
 

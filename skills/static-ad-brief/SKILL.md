@@ -46,7 +46,7 @@ Copy this into your answer and tick it off:
 
 ## The shape of a service static
 
-List the connector's skills and read the one for static ads (with AutoAdy, `list_skills` then `get_skill` with the slug it returns). That method orders the ad like this:
+List the connector's skills and read its creative method (with AutoAdy, `list_skills`, then `get_skill` with slug `ad-creative-strategist`; if that slug is not in the list, read the creative skill the list names). That method orders the ad like this:
 
 1. **Audience callout.** Line one names exactly who it is for, so the right person self-selects.
 2. **The pain, as a question.** One sharp, felt problem in their words. Specific beats clever.

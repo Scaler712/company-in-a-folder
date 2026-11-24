@@ -88,7 +88,7 @@ Write the script to the five beats, then read it aloud and time it. Roughly: a b
 
 Type and colour come from `brand/visual-style.md`. Where the owner supplies a design file, take the real type, sizes and positions out of the file rather than matching them by eye, and keep the same geometry across cards so the video does not jitter between them.
 
-Two build traps worth checking before a long render:
+Three build traps worth checking before a long render:
 
 - An element that is meant to appear part way through must start hidden. If it is only told to animate in, it is visible from the first frame, and a stack of cards can ship on top of each other.
 - A word or figure that swaps for another must fully leave before the next arrives. Two overlapping words read as a mistake.

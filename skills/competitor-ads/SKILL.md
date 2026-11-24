@@ -41,7 +41,7 @@ With no names: ask for them. Never guess who the competitors are.
 
 Copy this into your answer and tick it off:
 
-- [ ] 1. Read the board first (`list_competitor_board`)
+- [ ] 1. Read the board first (`list_competitor_board`), or write "no connector" and read the libraries by hand
 - [ ] 2. Search each competitor in both libraries, note the date
 - [ ] 3. Record every ad as a row, no judgement yet
 - [ ] 4. Group the rows by angle and by offer
